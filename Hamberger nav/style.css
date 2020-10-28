@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    display: flex;
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: beige;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: 0.4s;
+}
+nav.active{
+    transform: translateX(0%);
+
+}
+nav ul{
+    margin: 15px;
+    
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+button{
+    background-color: none;   
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+button.active{
+    transform: translateX(-410%);
+}

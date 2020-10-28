@@ -1,0 +1,36 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    font-family: fantasy;
+}
+#btn{
+    border: none;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+#btn.stand{
+    display: none;
+}
+#container{
+    display: none;
+    background-color: orange;
+    padding: 15px;
+    text-align: right;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+#container.stand{
+    display: block;
+    transition: 0.7s;
+}
+#container.normal{
+    display: none;
+}
+#X{
+    background-color: blueviolet;
+}

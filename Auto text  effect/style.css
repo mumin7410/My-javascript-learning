@@ -1,0 +1,15 @@
+body{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: orangered;
+}
+
+#container{
+    background-color:black;
+    border-bottom: solid 1px;
+    color: blanchedalmond;
+}
