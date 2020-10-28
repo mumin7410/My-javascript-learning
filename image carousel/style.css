@@ -1,0 +1,26 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.imgcon{
+    display: flex;
+    transition: transform 0.3s linear;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
