@@ -1,0 +1,31 @@
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    right: 25px;
+    top:15px;
+    transition: 0.4s;
+    border: none;
+    cursor: pointer;
+}
+.dot.white{
+    background-color: white;
+}
+
+body.dark{
+    background-color: black;
+    transition: 0.2s;
+}
+
+.article{
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+    color: black;
+}
+.article.white{
+    color: white;
+}
